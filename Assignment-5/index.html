@@ -5,13 +5,49 @@
 <html>
   <head>
     <title>Contact Foot Locker  </title>
+    <style>
+      table, th, td {
+         border: 1px solid black;
+      }
+   </style>
+
      <!-- Not vsible to visitors. -->
   </head>
 
   <body>
     <h1>Foot Locker</h1>
-    <address> 9585 SW Washington Square Rd, Tigard, OR </address> 
+    <address> 9585 SW Washington Square Rd, <br>Tigard, OR </address>
+<a href="mailto:cameron.parker@umontana.edu">Foot Locker E-mail</a>
+<table>
+<tr>
+<th></th>
+<th scope="col">Hours</th>
+
+</tr>
+<tr>
+<th scope="row">Monday-Saturday </th>
+<td>10-8</td>
+</tr>
+<tr>
+<th scope="row">Sunday</th>
+<td>11-7</td>
+</tr>
+</table>
 
 
+<form action="http://www.example.com/subscribe.php" method="get" id="subscribe-form" class="basic-forms">
+  <p>
+  Enter name here
+  <input type="text" name="name" id="test-text" />
+</p>
+<p>Please enter your email address
+   <input type="email" name="email" /> </p>
+   <p>
+  Comments or Concerns:
+  <textarea name="comments" id="test-textarea">Enter up to 500 characters...</textarea>
+</p>
+
+   <input type="submit" value="Submit" />
+  </form>
   </body>
 </html>
