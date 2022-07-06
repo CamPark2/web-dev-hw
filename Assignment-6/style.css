@@ -1,0 +1,20 @@
+h1{
+  color:blue;
+}
+.square {
+  width: 75%;
+height: 200px;
+margin: auto;
+}
+#orange{
+    background:orange;
+}
+#yellow{
+  background:yellow;
+}
+#red{
+  background:red;
+}
+#pink{
+  background:#000000;
+}
