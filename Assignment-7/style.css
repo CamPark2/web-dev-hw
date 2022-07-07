@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&family=Open+Sans&display=swap');
 h1{
   color:blue;
+}
+h1, h2 {
+font-family: 'Finlandica', sans-serif;
+letter-spacing: 10px;
+text-align:center;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+p:first-of-type::first-letter{
+  font-size: 150%;
+  color:teal;
+}
+a{
+  color: red;
+}
+a:hover{
+  color:white;
+  background-color:red;
 }
